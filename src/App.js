@@ -58,7 +58,7 @@ function App() {
       <Header title="My ToDos List" searchBar={(false)} />
       <Switch>
 
-          <Route exact path="/home" render = {()=>{
+          <Route exact path="#" render = {()=>{
               return(
                 <>
                 <AddTodo addTodo={addTodo} />
