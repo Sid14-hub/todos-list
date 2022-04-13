@@ -56,8 +56,11 @@ function App() {
     <>
     <Router>
       <Header title="My ToDos List" searchBar={(false)} />
+        <Route exact path="/">
+          <AddTodo addTodo={addTodo} />
+          </Route>
       <Switch>
-
+        
           <Route exact path="#" render = {()=>{
               return(
                 <>
